@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import BodyHeader from "./bodyHeader";
 import BodyDetails from "./BodyDetails";
 import Skill from "./Skill";
@@ -8,14 +8,20 @@ const Body = () => {
   const [state, setState] = useState(false);
 
   const handleScroll = () => {
-    setState(!state);
+    setState(true);
   };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  });
   return (
     <div onScroll={handleScroll}>
       <BodyHeader />
       {state && (
         <div className={state}>
-          <BodyDetails />
+          <div className="together">
+            <BodyDetails />
+          </div>
           <Skill />
           <Project />
         </div>

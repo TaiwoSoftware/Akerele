@@ -12,6 +12,12 @@
     }
 }
 
+
+@keyframes mveFromRight {
+    from{
+        transform: translateX(2rem) skew(150deg);
+    }
+}
 @keyframes moveFingerDown {
     from{
         transform:translateY(-4rem)
@@ -204,4 +210,11 @@ body {
     font-size: 3rem;
     text-transform: uppercase;
     color: rgb(202, 202, 202);
+}
+
+.together {
+    animation-name: mveFromRigh;
+    animation:moveFingerDown 3s ;
+    transition: all 1s;
+    animation-delay: 3s;
 }
