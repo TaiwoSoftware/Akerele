@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import author from "../images/author.svg";
-const BodyHeader = () => {
+const BodyHeader = ({downFinger}) => {
   const [delayFinger, setDelayFinger] = useState(false);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const BodyHeader = () => {
         </div>
       </div>
       <div>
-      {delayFinger && <p className="goDown">👇</p>}
+      {delayFinger && <p className={downFinger}>👇</p>}
       </div>
     </header>
   );

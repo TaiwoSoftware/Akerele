@@ -15,9 +15,9 @@ const Skill = () => {
         <h2>Sass</h2>
       </div>
       <div className="thirdSkill">
-        <h2>Git</h2>
-        <h2>Github</h2>
         <h2>NextJs</h2>
+        <h2>Github</h2>
+        <h2>Git</h2>
       </div>
       <h2 className="last">TailwindCss</h2>
     </div>

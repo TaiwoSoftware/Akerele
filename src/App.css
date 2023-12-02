@@ -75,7 +75,7 @@ body {
     margin-left: 20rem;
     margin-top: 3rem;
     font-size: 3rem;
-    transition:transform 1s ease-in;
+    transition: 4s ease-in;
     animation:moveFingerDown 3s ;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
@@ -85,6 +85,7 @@ body {
 
 .finger {
     display: none;
+    transition: all 3s;
 }
 
 .scroller{
@@ -181,7 +182,7 @@ body {
 
 .thirdSkill {
     display: grid;
-    grid-template-columns: .2fr 1fr .2fr;
+    grid-template-columns: .5fr 1fr .2fr;
     color: gray;
     margin-top: 4rem;
     font-size: 1.5rem;
@@ -202,19 +203,38 @@ body {
 .project {
     width: 100%;
     box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 3rem;
 }
 
-.project h1 {
+.pro {
     text-align: center;
     margin-top: 15rem;
     font-size: 3rem;
     text-transform: uppercase;
     color: rgb(202, 202, 202);
+    margin-bottom: 7rem;
 }
 
 .together {
-    animation-name: mveFromRigh;
+    animation-name: mveFromRight;
     animation:moveFingerDown 3s ;
     transition: all 1s;
     animation-delay: 3s;
 }
+
+.mobileImage{
+    box-shadow: 3px 3px 3px gray, -3px -3px 3px gray;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+.project h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* .detailed {
+    width: 50%;
+} */
