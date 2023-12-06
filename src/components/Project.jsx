@@ -9,6 +9,7 @@ const Project = ({
   sizingImage,
   nameOfProject,
   lowerContainer,
+  skill
 }) => {
   return (
     <div className="containerProject">
@@ -18,8 +19,8 @@ const Project = ({
           <h3>{nameOfProject}</h3>
           <div className="detailed">
             <p>{details}</p>
+            <p  className="tools">{skill}</p>
           </div>
-          <p>{tools}</p>
           <a href={href}>{links}</a>
         </div>
       </div>

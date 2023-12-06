@@ -41,7 +41,10 @@ const Body = () => {
               alt="Mobile image"
               sizingImage="mobileImage"
               nameOfProject='Mobile Money Box'
-              // details='This production is to make life easier for a human to be able to save money at your wish and the moment you save your money'
+              details="This is a mobile money box for online saving and every time you save money it is adding #100 to your account"
+              skill="HTML,CSS and JavaScript"
+              href=''
+              links='Live'
             />
           </div>
         </div>

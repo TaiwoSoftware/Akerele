@@ -97,15 +97,15 @@ body {
 }
 
 .header h1{
-    text-align: center;
     font-size: 4rem;
+    padding: 2rem;
     color: rgb(205, 205, 205);
 }
 
 .header p {
-    text-align: center;
     font-size: 2rem;
     color: rgb(205, 205, 205);
+    padding-left: 2rem;
 }
 
 .details {
@@ -204,8 +204,9 @@ body {
     width: 100%;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 1fr;
     gap: 3rem;
+    padding-left:2rem ;
 }
 
 .pro {
@@ -235,6 +236,19 @@ body {
     text-align: center;
 }
 
-/* .detailed {
-    width: 50%;
-} */
+.detailed  h3{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.detailed p {
+    width: 100%;
+}
+
+.tools {
+    color: gray;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
