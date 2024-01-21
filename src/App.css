@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 @keyframes moveDown {
     from{
         transform:translateY(-54rem)
@@ -207,6 +209,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     padding-left:2rem ;
+    margin-bottom: 6rem;
 }
 
 .pro {
@@ -227,7 +230,7 @@ body {
 
 .mobileImage{
     box-shadow: 3px 3px 3px gray, -3px -3px 3px gray;
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 100%;
 }
 
@@ -245,10 +248,25 @@ body {
 
 .detailed p {
     width: 100%;
+    margin-top: 1rem;
 }
 
 .tools {
     color: gray;
     margin-top: 2rem;
-    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.linker {
+    text-decoration: none;
+    color: gray;
+    align-items: center;
+}
+
+marquee{
+    background: gray;
+    padding:.5rem;
+    font-size: 1rem;
 }

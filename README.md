@@ -6,3 +6,9 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+tic-tac-toe links: https://ex-and-oh-game.netlify.app/
+timer link: https://stoper.netlify.app/
+recipe-site: https://foodie-cooker.netlify.app/
+ATs:https://sequidor.netlify.app/
+studio:https://resonant-bombolone-362dcb.netlify.app/
