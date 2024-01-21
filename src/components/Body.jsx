@@ -8,6 +8,7 @@ import recipe from '../images/rest.jpg';
 import timer from '../images/timer.png';
 import Skill from "./Skill";
 import Project from "./Project";
+import Contact from "./Contact";
 
 const Body = () => {
   const [state, setState] = useState(false);
@@ -100,11 +101,13 @@ const Body = () => {
               nameOfProject='Studio project'
               details='This is a studio project from frontend mentor where i was still learning interactivity using javascript i cannot say much about the project check them out by clicking on the images to go to the site.'
               skill='HTML and CSS'
+              href='https://resonant-bombolone-362dcb.netlify.app/'
               links = 'Check it out'
             />
             <marquee>Click on the images to view the site</marquee>
           </div>
         </div>
+        <Contact />
         </div>
       )}
     </div>
