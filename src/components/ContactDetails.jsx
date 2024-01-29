@@ -1,7 +1,7 @@
 import React from "react";
 import twitter from "../images/twitter.svg";
 import instagram from "../images/instagram.svg";
-import mail from '../images/icons8-gmail.svg';
+import mail from '../images/gmail.svg';
 import linkedin from '../images/icons8-linkedin-logo.svg';
 import github from '../images/icons8-github.svg';
 import { Link } from "react-router-dom";
