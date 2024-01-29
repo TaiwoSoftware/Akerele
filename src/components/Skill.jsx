@@ -3,7 +3,7 @@ import React from "react";
 const Skill = () => {
   return (
     <div className="allSkill">
-    <h2 className="skill">Skills</h2>
+      <h2 className="skill">Skills</h2>
       <div className="firstSkill">
         <h2>HTML5</h2>
         <h2>CSS3</h2>

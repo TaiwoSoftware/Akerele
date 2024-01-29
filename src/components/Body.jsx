@@ -93,7 +93,7 @@ const Body = () => {
               href='https://resonant-bombolone-362dcb.netlify.app/'
               links = 'Check it out'
             />
-            <marquee>Click on the images to view the site</marquee>
+            {/* <marquee>Click on the images to view the site</marquee> */}
           </div>
         </div>
         <Contact />

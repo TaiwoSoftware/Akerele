@@ -1,14 +1,12 @@
-# React + Vite
+# WELCOME TO AKERELE TAIWO PORTFOLIO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This was developed by Taiwo akerele to build himself in front-end development and work on mind-blowing project that would make HR personnel say wow.
 
-Currently, two official plugins are available:
+This project is developed to sell Taiwo to people who are ready to work on mind-blowing project and solve problems affecting the society and to build the website for companies as the time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I am an enthusiast for front-end development projects. It is my responsibility to develop the interface and interactivity of the project. I'm an instrumentalist, i play the piano in his leisure time to cool my brain after fixing a lot of bugs am still looking forward to learning new technologies.
 
-tic-tac-toe links: https://ex-and-oh-game.netlify.app/
-timer link: https://stoper.netlify.app/
-recipe-site: https://foodie-cooker.netlify.app/
-ATs:https://sequidor.netlify.app/
-studio:https://resonant-bombolone-362dcb.netlify.app/
+##Concerning the portfolio
+When the project lands on your browser all you have to do is just to scroll to see the remaining details and to check for the works have done all you just need to do is just to click on the project you want to see and it's link you to live link of the project.
+
+######Please follow me on all the platforms 🤣😂😂 THANK YOU!!!!!
