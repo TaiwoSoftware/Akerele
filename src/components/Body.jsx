@@ -35,17 +35,6 @@ const Body = () => {
           <Skill />
           <div>
             <h1 className="pro">Projects</h1>
-            {/* <Project
-              lowerContainer='project'
-              src={firstPro}
-              alt="Mobile image"
-              sizingImage="mobileImage"
-              nameOfProject='Mobile Money Box'
-              details="This is a mobile money box for online saving and every time you save money it is adding #100 to your account"
-              skill="HTML,CSS and JavaScript"
-              href=''
-              links='Live'
-            /> */}
             <Project 
               lowerContainer='project'
               src={recipe}

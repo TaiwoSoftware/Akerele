@@ -155,7 +155,7 @@ body {
     color: gray;
     margin-top: 6rem;
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     text-align: center;
 }
@@ -204,12 +204,12 @@ body {
 
 .project {
     width: 100%;
-    box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     padding-left:2rem ;
     margin-bottom: 6rem;
+    box-sizing: border-box;
 }
 
 .pro {
@@ -269,4 +269,30 @@ marquee{
     background: gray;
     padding:.5rem;
     font-size: 1rem;
+}
+
+.contactDetails p {
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(215, 215, 215);
+}
+
+.contactDetails img {
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+
+.contactMain {
+    margin-top: 15rem;
+}
+
+
+@media (max-width:1094px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+
+    .project {
+        grid-template-columns: 100%;
+    }
 }
