@@ -1,4 +1,3 @@
-import React from 'react'
 import ContactDetails from './ContactDetails'
 function Contact() {
   return (

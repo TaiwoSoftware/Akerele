@@ -73,22 +73,17 @@ body {
     padding: 0;
     width: 100%;
     transition:transform 1s ease-in;
-    animation:moveDown 3s ;
 }
 .header {
     display: grid;
     grid-template-columns: .7fr auto;
     gap: 4rem;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .author {
-    animation-name: bigger;
-    animation-delay: 3s;
-    animation-duration:4s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    animation-direction: alternate;
+    width: 100%;
 }
 
 .goDown {
@@ -151,6 +146,7 @@ body {
 .si p{
     text-align: justify;
     width: 100%;
+    font-size: 20px;
     color: rgb(205, 205, 205);
     line-height: 1.5rem;
 }
@@ -167,6 +163,8 @@ body {
 .allSkill  {
     align-items: center;
     width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .skill {
@@ -210,6 +208,17 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
+
+/* CSS for Swiper pagination bullets */
+.swiper-pagination-bullet {
+    background-color: gray !important; /* Inactive bullet color */
+    opacity: 1 !important; /* Ensure the bullets are fully opaque */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: white !important; /* Active bullet color */
+  }
+  
 
 .last {
     color: gray;
