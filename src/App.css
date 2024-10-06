@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-
+@font-face {
+    font-family: 'nunito';
+    src: url('./Nunito/static/Nunito-Regular.ttf');
+}
 
 @keyframes moveDown {
     from{
@@ -45,6 +48,7 @@ html {
 }
 body {
     background-color: #000;
+    font-family: 'nunito';
     color:#fff;
     padding: 2rem;
     font-family: sans-serif;
