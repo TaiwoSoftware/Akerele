@@ -1,383 +1,404 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
-    font-family: 'nunito';
-    src: url('./Nunito/static/Nunito-Regular.ttf');
+  font-family: "nunito";
+  src: url("./Nunito/static/Nunito-Regular.ttf");
 }
 
 @keyframes moveDown {
-    from{
-        transform:translateY(-54rem)
-    }
-    to{
-        transform: translateY(0);
-    }
+  from {
+    transform: translateY(-54rem);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
-
 
 @keyframes mveFromRight {
-    from{
-        transform: translateX(2rem) skew(150deg);
-    }
+  from {
+    transform: translateX(2rem) skew(150deg);
+  }
 }
 @keyframes moveFingerDown {
-    from{
-        transform:translateY(-4rem)
-    }
-    to{
-        transform: translateY(0);
-    }
+  from {
+    transform: translateY(-4rem);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 @keyframes bigger {
-    from {
-        transform: scale(.5);
-    }
-    to {
-        transform: scale(1);
-    }
-    
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 html {
-    max-width:1440px;
-    margin-left:auto;
-    margin-right:auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 body {
-    background-color: #000;
-    font-family: 'nunito';
-    color:#fff;
-    padding: 2rem;
-    font-family: sans-serif;
+  background-color: #000;
+  font-family: "nunito";
+  color: #fff;
+  padding: 2rem;
+  font-family: sans-serif;
 }
 
 .error h1 {
-    text-align: center;
-    color: #fff;
-    font-size: 3rem;
-    text-transform: uppercase;
-    margin-top:14rem ;
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 14rem;
 }
 
 .error p {
-    color: rgb(202, 202, 202);
-    text-align: center;
-    cursor: pointer;
+  color: rgb(202, 202, 202);
+  text-align: center;
+  cursor: pointer;
 }
 
 .error a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .header {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    transition:transform 1s ease-in;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  transition: transform 1s ease-in;
 }
 .header {
-    display: grid;
-    grid-template-columns: .7fr auto;
-    gap: 4rem;
-    align-items: center;
-    overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 0.7fr auto;
+  gap: 4rem;
+  align-items: center;
+  overflow-x: hidden;
 }
 
 .author {
-    width: 100%;
+  width: 100%;
 }
 
 .goDown {
-    margin-left: 20rem;
-    margin-top: 3rem;
-    font-size: 3rem;
-    transition: 4s ease-in;
-    animation:moveFingerDown 3s ;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    animation-direction: alternate;
-    animation-delay: 2s;
+  margin-left: 20rem;
+  margin-top: 3rem;
+  font-size: 3rem;
+  transition: 4s ease-in;
+  animation: moveFingerDown 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-delay: 2s;
 }
 
 .finger {
-    display: none;
-    transition: all 3s;
+  display: none;
+  transition: all 3s;
 }
 
-.scroller{
-    display: none;
+.scroller {
+  display: none;
 }
 
 .header img {
-    width: 100%;
+  width: 100%;
 }
 
-.header h1{
-    font-size: 4rem;
-    padding: 2rem;
-    color: rgb(205, 205, 205);
+.header h1 {
+  font-size: 4rem;
+  padding: 2rem;
+  color: rgb(205, 205, 205);
 }
 
 .header p {
-    font-size: 2rem;
-    color: rgb(205, 205, 205);
-    padding-left: 2rem;
+  font-size: 2rem;
+  color: rgb(205, 205, 205);
+  padding-left: 2rem;
 }
 
 .details {
-    margin-top: 15rem;
-    align-items: center;
+  margin-top: 15rem;
+  align-items: center;
 }
 
 .details h2 {
-    color: gray;
-    font-size: 3rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
+  color: gray;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .si {
-    width: 100%;
-    align-items: center;
-    padding: 3rem;
-    box-sizing: border-box;
+  width: 100%;
+  text-align: justify;
+  font-size: 16px;
+  color: rgb(205, 205, 205);
+  line-height: 1.5rem;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
-.si p{
-    text-align: justify;
-    width: 100%;
-    font-size: 20px;
-    color: rgb(205, 205, 205);
-    line-height: 1.5rem;
-}
-
-.si a{
-    text-decoration: none;
-    color: white;
+.si a {
+  text-decoration: none;
+  color: white;
 }
 
 .firstP p {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-.allSkill  {
-    align-items: center;
-    width: 100%;
-    overflow-y: hidden;
-    overflow-x: hidden;
+.allSkill {
+  align-items: center;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .skill {
-    color: gray;
-    margin-top: 6rem;
-    font-size: 3rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
+  color: gray;
+  margin-top: 6rem;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .firstSkill {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    color: gray;
-    margin-top: 4rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: gray;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .secondSkill {
-    display: grid;
-    grid-template-columns: .6fr auto .6fr;
-    color: gray;
-    margin-top: 4rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 0.6fr auto 0.6fr;
+  color: gray;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .thirdSkill {
-    display: grid;
-    grid-template-columns: .5fr 1fr .2fr;
-    color: gray;
-    margin-top: 4rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.2fr;
+  color: gray;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /* CSS for Swiper pagination bullets */
 .swiper-pagination-bullet {
-    background-color: gray !important; /* Inactive bullet color */
-    opacity: 1 !important; /* Ensure the bullets are fully opaque */
-  }
-  
-  .swiper-pagination-bullet-active {
-    background-color: white !important; /* Active bullet color */
-  }
-  
+  background-color: gray !important; /* Inactive bullet color */
+  opacity: 1 !important; /* Ensure the bullets are fully opaque */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important; /* Active bullet color */
+}
 
 .last {
-    color: gray;
-    margin-top: 4rem;
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
+  color: gray;
+  margin-top: 4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .project {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    padding-left:2rem ;
-    margin-bottom: 6rem;
-    box-sizing: border-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding-left: 2rem;
+  margin-bottom: 6rem;
+  box-sizing: border-box;
 }
 
 .pro {
-    text-align: center;
-    margin-top: 15rem;
-    font-size: 3rem;
-    text-transform: uppercase;
-    color: rgb(202, 202, 202);
-    margin-bottom: 7rem;
+  text-align: center;
+  margin-top: 15rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: rgb(202, 202, 202);
+  margin-bottom: 7rem;
 }
 
 .together {
-    animation-name: mveFromRight;
-    animation:moveFingerDown 3s ;
-    transition: all 1s;
-    animation-delay: 3s;
+  animation-name: mveFromRight;
+  animation: moveFingerDown 3s;
+  transition: all 1s;
+  animation-delay: 3s;
 }
 
-.mobileImage{
-    box-shadow: 3px 3px 3px gray, -3px -3px 3px gray;
-    border-radius: 1rem;
-    width: 100%;
+.mobileImage {
+  box-shadow: 3px 3px 3px gray, -3px -3px 3px gray;
+  border-radius: 1rem;
+  width: 100%;
 }
 
 .project h3 {
-    font-size: 2rem;
-    text-align: center;
+  font-size: 2rem;
+  text-align: center;
 }
 
-.detailed  h3{
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    margin-top: 4rem;
+.detailed h3 {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-top: 4rem;
 }
 
 .detailed p {
-    width: 100%;
-    margin-top: 1rem;
+  width: 100%;
+  margin-top: 1rem;
 }
 
 .tools {
-    color: gray;
-    margin-top: 2rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2rem;
+  color: gray;
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
 }
 
 .linker {
-    text-decoration: none;
-    color: gray;
-    align-items: center;
+  text-decoration: none;
+  color: gray;
+  align-items: center;
 }
 
-marquee{
-    background: gray;
-    padding:.5rem;
-    font-size: 1rem;
+.contactDetails {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .contactDetails p {
-    margin-top: 1rem;
-    text-align: center;
-    color: rgb(215, 215, 215);
+  margin-top: 0.5rem;
+  text-align: center;
 }
 
 .contactDetails img {
-    margin-left: 2rem;
-    border-radius: 50%;
+  margin-left: 1rem;
+  border-radius: 50%;
 }
 
 .contactMain {
-    margin-top: 15rem;
+  margin-top: 2rem;
+  overflow: hidden;
 }
 
-
-@media (max-width:1094px) {
-    .header h1 {
-        font-size: 3rem;
-    }
-
-    .project {
-        grid-template-columns: 100%;
-    }
+.footerSocial {
+  margin-top: 1rem;
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
 }
 
-@media (max-width:952px) {
-    .header h1 {
-        font-size: 2.7rem;
-    }
+@media (max-width: 1094px) {
+  .header h1 {
+    font-size: 3rem;
+  }
 
-    .header p {
-        font-size: 1.5rem;
-    }
+  .project {
+    grid-template-columns: 100%;
+  }
+
+  .si p {
+    text-align: center;
+  }
 }
 
-@media (max-width:910px) {
-    .header h1 {
-        font-size: 2.4rem;
-    }
+@media (max-width: 952px) {
+  .header h1 {
+    font-size: 2.7rem;
+  }
 
-    .firstSkill, .secondSkill, .thirdSkill {
-        grid-template-columns: 1fr 2fr 1fr;
-    }
+  .header p {
+    font-size: 1.5rem;
+  }
+  .si p {
+    text-align: justify;
+  }
 }
 
-@media (max-width:815px) {
-    .header h1 {
-        font-size: 3rem;
-        text-align: center;
-    }
+@media (max-width: 910px) {
+  .header h1 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .firstSkill,
+  .secondSkill,
+  .thirdSkill {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .si p {
+    text-align: justify;
+  }
 }
 
-@media (max-width:800px) {
-    .header {
-        grid-template-columns: 100%;
-    }
-    .header p {
-        text-align: center;
-        font-size: 1.5rem;
-    }
+@media (max-width: 815px) {
+  .header h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .si p {
+    text-align: justify;
+  }
 }
 
-@media (max-width:510px) {
-    .firstSkill, .secondSkill, .thirdSkill {
-        grid-template-columns: 100%;
-    }
-    .header {
-        grid-template-columns: 100%;
-    }
-    .header h1 {
-        text-align: center;
+@media (max-width: 800px) {
+  .header {
+    grid-template-columns: 100%;
+  }
+  .header p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
 
-    }
+  .si p {
+    text-align: justify;
+  }
 }
 
-@media (max-width:460px) {
+@media (max-width: 510px) {
+  .header h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .firstSkill,
+  .secondSkill,
+  .thirdSkill {
+    grid-template-columns: 100%;
+  }
+  .header {
+    grid-template-columns: 100%;
+  }
 
+  .si p {
+    text-align: justify;
+  }
 }

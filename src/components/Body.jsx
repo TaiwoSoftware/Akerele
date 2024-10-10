@@ -15,6 +15,7 @@ import nextJsImage from "../images/icons8-next.js-50.png";
 import tailwindcss from "../images/icons8-tailwind-css-50.png";
 import sassImage from "../images/icons8-sass-50.png";
 import Contact from "./Contact";
+import malva from "../images/malva.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation, Pagination } from "swiper/modules";
@@ -105,6 +106,45 @@ const Body = () => {
                   links="Check it out"
                 />
               </SwiperSlide>
+
+              <SwiperSlide>
+                <Project
+                  lowerContainer="project"
+                  src={malva}
+                  alt={
+                    "This jamor Tech internship program to work on a website"
+                  }
+                  sizingImage="mobileImage"
+                  nameOfProject={"Malva"}
+                  details={
+                    "This is a project from jamorTech internship program to develop a website. This website is a task manager website where task can be assign, it is also a collaboration project. I cannot say much about it click the image and go to the website"
+                  }
+                  skill={
+                    <>
+                      <img src={reactImage} alt="react js" />
+                      <img src={tailwindcss} alt="tailwind css" />
+                    </>
+                  }
+                />
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <Project
+                  lowerContainer="project"
+                  src={ecommerce}
+                  alt="An ecommerce project"
+                  sizingImage="mobileImage"
+                  nameOfProject="Dresser-Glam"
+                  details="This is an internship project from internCareer that I worked on. I have worked on other internships but I kind of like this one."
+                  skill={
+                    <>
+                      <img src={reactImage} alt="react" />
+                      <img src={sassImage} alt="sass" />
+                    </>
+                  }
+                  href="https://buy-and-sell-project.netlify.app/"
+                />
+              </SwiperSlide>
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
@@ -127,23 +167,6 @@ const Body = () => {
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
-                  src={ecommerce}
-                  alt="An ecommerce project"
-                  sizingImage="mobileImage"
-                  nameOfProject="Dresser-Glam"
-                  details="This is an internship project from internCareer that I worked on. I have worked on other internships but I kind of like this one."
-                  skill={
-                    <>
-                      <img src={reactImage} alt="react" />
-                      <img src={sassImage} alt="sass" />
-                    </>
-                  }
-                  href="https://buy-and-sell-project.netlify.app/"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Project
-                  lowerContainer="project"
                   src={studio}
                   alt="Studio image"
                   sizingImage="mobileImage"
@@ -160,7 +183,6 @@ const Body = () => {
                 />
               </SwiperSlide>
             </Swiper>
-            {/* <marquee>Click on the images to view the site</marquee> */}
           </div>
         </div>
         <Contact />
