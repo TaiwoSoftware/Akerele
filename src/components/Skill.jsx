@@ -28,6 +28,7 @@ const Skill = () => {
         <h2>Git</h2>
       </div>
       <h2 className="last" data-aos="fade-up-left">TailwindCss</h2>
+      <h2 className="last" data-aos="fade-up-left">Typescript</h2>
     </div>
   );
 };
