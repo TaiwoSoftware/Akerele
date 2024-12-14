@@ -7,7 +7,7 @@ import recipe from "../images/rest.jpg";
 import todo from "../images/todo.png";
 import countdown from '../images/countdown.png';
 import Skill from "./Skill";
-import Project from "./Project";
+import Project from "./Project"
 import reactImage from "../images/icons8-react-50.png";
 import cssImage from "../images/icons8-css-logo-50.png";
 import htmlImage from "../images/icons8-html-logo-50.png";
