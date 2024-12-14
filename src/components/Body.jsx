@@ -4,7 +4,8 @@ import ecommerce from "../images/e-commerce.jpg";
 import studio from "../images/studio.png";
 import applicant from "../images/applicant.png";
 import recipe from "../images/rest.jpg";
-import timer from "../images/timer.png";
+import todo from "../images/todo.png";
+import countdown from '../images/countdown.png';
 import Skill from "./Skill";
 import Project from "./Project";
 import reactImage from "../images/icons8-react-50.png";
@@ -91,6 +92,42 @@ const Body = () => {
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
+                  src={countdown}
+                  alt="A countdown app"
+                  sizingImage="mobileImage"
+                  nameOfProject="Countdown"
+                  details="This is a countdown website for the lauch of a product which is happening tomorrow, so i decided to build the countdown"
+                  skill={
+                    <>
+                      <img src={nextJsImage} />
+                      <img src={tailwindcss} alt="css" />
+                    </>
+                  }
+                  href="https://ex-and-oh-game.netlify.app/"
+                  links="Check it out"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Project
+                  lowerContainer="project"
+                  src={todo}
+                  alt="Todo list"
+                  sizingImage="mobileImage"
+                  nameOfProject="Todo List"
+                  details="This is a todo list project for productive people it has different features."
+                  skill={
+                    <>
+                      <img src={reactImage} />
+                      <img src={cssImage} alt="css" />
+                    </>
+                  }
+                  href="https://ex-and-oh-game.netlify.app/"
+                  links="Check it out"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Project
+                  lowerContainer="project"
                   src={applicant}
                   alt="Applicant tracking system image"
                   sizingImage="mobileImage"
@@ -145,25 +182,7 @@ const Body = () => {
                   href="https://buy-and-sell-project.netlify.app/"
                 />
               </SwiperSlide>
-              <SwiperSlide>
-                <Project
-                  lowerContainer="project"
-                  src={timer}
-                  alt="This is a timer project"
-                  sizingImage="mobileImage"
-                  nameOfProject="Timer"
-                  details="This is an internship project from Prodigy InfoTech where I worked as an intern to work on a timer."
-                  skill={
-                    <>
-                      <img src={htmlImage} />
-                      <img src={cssImage} alt="css" />
-                      <img src={javascriptImage} alt="js" />
-                    </>
-                  }
-                  href="https://stoper.netlify.app/"
-                  links="Check it out"
-                />
-              </SwiperSlide>
+              
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
