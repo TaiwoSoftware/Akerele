@@ -4,7 +4,6 @@ import ecommerce from "../images/e-commerce.jpg";
 import studio from "../images/studio.png";
 import applicant from "../images/applicant.png";
 import recipe from "../images/rest.jpg";
-import todo from "../images/todo.png";
 import countdown from '../images/countdown.png';
 import Skill from "./Skill";
 import Project from "./Project"
@@ -103,25 +102,7 @@ const Body = () => {
                       <img src={tailwindcss} alt="css" />
                     </>
                   }
-                  href="https://ex-and-oh-game.netlify.app/"
-                  links="Check it out"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Project
-                  lowerContainer="project"
-                  src={todo}
-                  alt="Todo list"
-                  sizingImage="mobileImage"
-                  nameOfProject="Todo List"
-                  details="This is a todo list project for productive people it has different features."
-                  skill={
-                    <>
-                      <img src={reactImage} />
-                      <img src={cssImage} alt="css" />
-                    </>
-                  }
-                  href="https://ex-and-oh-game.netlify.app/"
+                  href="https://amison-countdown.vercel.app/"
                   links="Check it out"
                 />
               </SwiperSlide>
