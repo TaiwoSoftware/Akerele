@@ -215,6 +215,10 @@ body {
   background-color: white !important; /* Active bullet color */
 }
 
+.typescript {
+  width: 10%;
+}
+
 .last {
   color: gray;
   margin-top: 4rem;

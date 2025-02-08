@@ -1,6 +1,5 @@
 import BodyDetails from "./BodyDetails";
 import ticTacToe from "../images/tictac.png";
-import ecommerce from "../images/e-commerce.jpg";
 import studio from "../images/studio.png";
 import applicant from "../images/applicant.png";
 import recipe from "../images/rest.jpg";
@@ -13,18 +12,18 @@ import htmlImage from "../images/icons8-html-logo-50.png";
 import javascriptImage from "../images/icons8-javascript-50.png";
 import nextJsImage from "../images/icons8-next.js-50.png";
 import tailwindcss from "../images/icons8-tailwind-css-50.png";
-import sassImage from "../images/icons8-sass-50.png";
 import Contact from "./Contact";
 import malva from "../images/malva.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";  
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
 import Aos from "aos";
+import footfind from '../images/footfind-project.png';
 import "aos/dist/aos.css";
-
+import typescriptImage from '../images/Typescript.png';
 import PortHeader from "./PortHeader";
 import "../App.css";
 import { useEffect } from "react";
@@ -149,18 +148,18 @@ const Body = () => {
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
-                  src={ecommerce}
-                  alt="An ecommerce project"
+                  src={footfind}
+                  alt="A Shoe Ecommerce Website"
                   sizingImage="mobileImage"
-                  nameOfProject="Dresser-Glam"
-                  details="This is an internship project from internCareer that I worked on. I have worked on other internships but I kind of like this one."
+                  nameOfProject="Foot-find"
+                  details="Foot-find is an eccomerce website where users can buy shoes to make their fashion complete, there are exclusive features on the site go ahead an check it  out you would be amazed"
                   skill={
                     <>
                       <img src={reactImage} alt="react" />
-                      <img src={sassImage} alt="sass" />
+                      <img src={typescriptImage} className="typescript" alt="typescript" />
                     </>
                   }
-                  href="https://buy-and-sell-project.netlify.app/"
+                  href="https://footfindsproject.netlify.app/"
                 />
               </SwiperSlide>
               
