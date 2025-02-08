@@ -19,11 +19,7 @@ const BodyDetails = () => {
 
         <p>
           <div data-aos="fade-down-left">
-            I&rsquo;m Akerele Taiwo, A passionate frontend developer and eager
-            to learn new technologies to improve and advance myself in the tech
-            space. Building more complex and interactive website using frontend
-            development technologies is what i love, with building a
-            user-friendly interface.
+          I&rsquo;m an expert in frontend development, eager to learn new technologies and build more products in the tech space. Building simple, interactive and user-friendly website using frontend development technology and adding encryptions to my website by adding blockchain technologies into it focusing basically on Smart Contract (in progress) and delivering innovative web3 solutions
           </div>
           <p data-aos="fade-down-right">
             {" "}
