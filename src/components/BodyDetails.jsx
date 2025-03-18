@@ -1,4 +1,5 @@
 import Aos from "aos";
+import { Link } from "react-router-dom";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 const BodyDetails = () => {
@@ -10,8 +11,8 @@ const BodyDetails = () => {
     });
   });
   return (
-    <div className="details" >
-      <h2 data-aos="flip-right">About</h2>
+    <div className="details">
+      <h2 data-aos="flip-right mb-10">About</h2>
       <div className="si">
         <div className="firstP">
           <p>Hey! there ✌, </p>
@@ -19,33 +20,42 @@ const BodyDetails = () => {
 
         <p>
           <div data-aos="fade-down-left">
-          I&rsquo;m an expert in frontend development, eager to learn new technologies and build more products in the tech space. Building simple, interactive and user-friendly website using frontend development technology and adding encryptions to my website by adding blockchain technologies into it focusing basically on Smart Contract (in progress) and delivering innovative web3 solutions
+            I’m a passionate frontend developer eager to learn new technologies
+            and build innovative products in the tech space. I specialize in
+            creating simple, interactive, and user-friendly websites using
+            modern frontend technologies. Currently, I’m expanding my expertise
+            by integrating blockchain technology, focusing on smart contracts,
+            to enhance security and encryption in web applications.
           </div>
           <p data-aos="fade-down-right">
             {" "}
-            I started frontend development at the age of 16 and gained interest
-            in it so i started working on improving myself with front-end
-            development tools and learning online, i started with <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://freecodecamp.org/"
+            My journey in frontend development began at the age of 16 when I
+            developed a strong interest in building interactive web experiences.
+            I started learning through{" "}
+            <Link
+              to={
+                "https://www.freecodecamp.org/certification/Akerele-Taiwo-David/responsive-web-design"
+              }
             >
-            freeCodeCamp
-            </a>{" "}
-            which i gained certificate on responsive web design, moved forward
-            to{" "}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.frontendmentor.io/home"
-            >
-              frontend mentor
-            </a>{" "}
-            where i learnt interactivity on the web. The more i learnt about
-            interactivity on the web the more i was eager to learn more even
-            though i faced challenges. Playing the piano🎹, watching movies and
-            eating is what i use to relax my brain after a long day of writing
-            codes, fixing bugs and deploying😂.{" "}
+              {" "}
+              freeCodeCamp
+            </Link>
+            , where I earned a certificate in responsive web design. I then
+            advanced my skills with{" "}
+            <Link to={"https://www.frontendmentor.io/home"}>
+              Frontend Mentor
+            </Link>
+            , honing my ability to create dynamic and engaging web interfaces.
+            Despite the challenges, my passion for web development has only
+            grown, driving me to continuously improve and explore new
+            possibilities.
+            <div className="mt-2">
+              {" "}
+              Beyond coding, I unwind by playing the piano 🎹, watching movies,
+              and, of course, enjoying good food. After long hours of writing
+              code, fixing bugs, and deploying projects, these little joys keep
+              me balanced and motivated. 😂
+            </div>
           </p>
         </p>
       </div>
