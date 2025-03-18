@@ -104,11 +104,9 @@ const Body = () => {
                   skill={
                     <div>
                       <img src={typescriptImage} alt="react image" />
-                      <img src={cssImage} alt="css image" />
-                      <img src={htmlImage} alt="html" />
+                      <img src={reactImage} alt="react" />
+                      <img src={tailwindcss} alt="tailwind" />
                       <img src={solidity} alt="solidity" />
-                      <img src={javascriptImage} alt="js" />
-                      <img src={cssImage} alt="css" />
                     </div>
                   }
                   href="https://t-dapp.vercel.app/"
