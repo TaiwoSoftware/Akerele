@@ -5,6 +5,8 @@ import applicant from "../images/applicant.png";
 import recipe from "../images/rest.jpg";
 import countdown from "../images/countdown.png";
 import Skill from "./Skill";
+import solidity from '../images/main-solidity.svg';
+import noteChain from '../images/NoteChain.png';
 import Project from "./Project";
 import reactImage from "../images/icons8-react-50.png";
 import cssImage from "../images/icons8-css-logo-50.png";
@@ -23,7 +25,7 @@ import "swiper/swiper-bundle.css";
 import Aos from "aos";
 import footfind from "../images/footfind-project.png";
 import "aos/dist/aos.css";
-import typescriptImage from "../images/Typescript.png";
+import typescriptImage from "../images/icons8-typescript.svg";
 import PortHeader from "./PortHeader";
 import "../App.css";
 import { useEffect } from "react";
@@ -89,6 +91,31 @@ const Body = () => {
                   href="https://footfindsproject.netlify.app/"
                 />
               </SwiperSlide>
+
+              {/* blockchain */}
+              <SwiperSlide>
+                <Project
+                  lowerContainer="project"
+                  src={noteChain}
+                  alt="Dapp"
+                  sizingImage="mobileImage"
+                  nameOfProject="NoteChain Dapp"
+                  details="This is a project i built to test my skill in Dapp in the web3.0 space, not to occupy you with stories just check the site by clicking on the image."
+                  skill={
+                    <div>
+                      <img src={typescriptImage} alt="react image" />
+                      <img src={cssImage} alt="css image" />
+                      <img src={htmlImage} alt="html" />
+                      <img src={solidity} alt="solidity" />
+                      <img src={javascriptImage} alt="js" />
+                      <img src={cssImage} alt="css" />
+                    </div>
+                  }
+                  href="https://t-dapp.vercel.app/"
+                  links="Check it out"
+                />
+              </SwiperSlide>
+
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
