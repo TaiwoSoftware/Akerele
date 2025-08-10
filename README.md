@@ -9,4 +9,4 @@ I am an enthusiast for front-end development projects. It is my responsibility t
 ##Concerning the portfolio
 When the project lands on your browser all you have to do is just to scroll to see the remaining details and to check for the works have done all you just need to do is just to click on the project you want to see and it's link you to live link of the project.
 
-######Please follow me on all the platforms 🤣😂😂 THANK YOU!!!!!
+#Please follow me on all the platforms 🤣😂😂 THANK YOU!!!!!
