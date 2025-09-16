@@ -31,7 +31,7 @@ function ContactDetails() {
         <Link to="https://github.com/TaiwoSoftware">
           <img src={github} alt="github-link" />
         </Link>
-        <Link to="https://ng.linkedin.com/in/taiwo-akerele-44b5b4246">
+        <Link to="https://www.linkedin.com/in/taiwo-akerele-4b33aa382/">
           <img src={linkedin} alt="LinkedIn" />
         </Link>
       </div>

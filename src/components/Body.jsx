@@ -161,44 +161,8 @@ const Body = () => {
                   links="Check it out"
                 />
               </SwiperSlide>
-              <SwiperSlide>
-                <Project
-                  lowerContainer="project"
-                  src={countdown}
-                  alt="A countdown app"
-                  sizingImage="mobileImage"
-                  nameOfProject="Countdown"
-                  details="This is a countdown website for the lauch of a product which is happening tomorrow, so i decided to build the countdown"
-                  skill={
-                    <>
-                      <img src={nextJsImage} />
-                      <img src={tailwindcss} alt="css" />
-                    </>
-                  }
-                  href="https://amison-countdown.vercel.app/"
-                  links="Check it out"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Project
-                  lowerContainer="project"
-                  src={malva}
-                  alt={
-                    "This jamor Tech internship program to work on a website"
-                  }
-                  sizingImage="mobileImage"
-                  nameOfProject={"Malva"}
-                  details={
-                    "This is a project from jamorTech internship program to develop a website. This website is a task manager website where task can be assign, it is also a collaboration project. I cannot say much about it click the image and go to the website"
-                  }
-                  skill={
-                    <>
-                      <img src={reactImage} alt="react js" />
-                      <img src={tailwindcss} alt="tailwind css" />
-                    </>
-                  }
-                />
-              </SwiperSlide>
+              
+              
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
@@ -220,24 +184,7 @@ const Body = () => {
 
              
 
-              <SwiperSlide>
-                <Project
-                  lowerContainer="project"
-                  src={studio}
-                  alt="Studio image"
-                  sizingImage="mobileImage"
-                  nameOfProject="Studio Project"
-                  details="This is a studio project from Frontend Mentor where I was still learning interactivity using JavaScript. I cannot say much about the project; check them out by clicking on the images to go to the site."
-                  skill={
-                    <>
-                      <img src={htmlImage} />
-                      <img src={cssImage} alt="css" />
-                    </>
-                  }
-                  href="https://resonant-bombolone-362dcb.netlify.app/"
-                  links="Check it out"
-                />
-              </SwiperSlide>
+              
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
