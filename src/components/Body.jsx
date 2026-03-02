@@ -57,27 +57,7 @@ const Body = () => {
               pagination={{ clickable: true }}
             >
             <SwiperSlide>
-                <Project
-                  lowerContainer="project"
-                  src={quizz}
-                  alt="quizz"
-                  sizingImage="mobileImage"
-                  nameOfProject="Quiz"
-                  details="This is a quiz website developed with a different feature and a mindset i actually built this quiz for my school that's why you would see Yaba College of Technology logo on it, trust me it has a unique feature are you still reading what i wrote clic the image to see the feature."
-                  skill={
-                    <>
-                      <img src={reactImage} className="spinner" alt="react" />
-                      <img
-                        src={typescriptImage}
-                        className="typescript"
-                        alt="typescript"
-                      />
-                      <img src={tailwindcss} alt="tailwind" />
-                    </>
-                  }
-                  href="https://quiz-test-yabatech.netlify.app/"
-                />
-              </SwiperSlide>
+         
             <SwiperSlide>
                 <Project
                   lowerContainer="project"
@@ -97,7 +77,7 @@ const Body = () => {
                       <img src={tailwindcss} alt="tailwind" />
                     </>
                   }
-                  href="https://deveat.vercel.app/"
+                  href="https://byteeatsofficial.vercel.app/"
                 />
               </SwiperSlide>
               
