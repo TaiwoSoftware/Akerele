@@ -33,8 +33,8 @@ import "../App.css";
 import { useEffect } from "react";
 const Body = () => {
   useEffect(() => {
- 
-    
+
+
     Aos.init({
       duration: 1000,
       offset: 120,
@@ -56,9 +56,7 @@ const Body = () => {
               modules={[Navigation, Pagination]}
               pagination={{ clickable: true }}
             >
-            <SwiperSlide>
-         
-            <SwiperSlide>
+              <SwiperSlide>
                 <Project
                   lowerContainer="project"
                   src={byteeats}
@@ -80,7 +78,7 @@ const Body = () => {
                   href="https://byteeatsofficial.vercel.app/"
                 />
               </SwiperSlide>
-              
+
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
@@ -102,26 +100,7 @@ const Body = () => {
                   href="https://footfindsproject.netlify.app/"
                 />
               </SwiperSlide>
-              <SwiperSlide>
-                <Project
-                  lowerContainer="project"
-                  src={noteChain}
-                  alt="Dapp"
-                  sizingImage="mobileImage"
-                  nameOfProject="NoteChain Dapp"
-                  details="This is a project i built to test my skill in Dapp in the web3.0 space, not to occupy you with stories just check the site by clicking on the image."
-                  skill={
-                    <div>
-                      <img src={typescriptImage} alt="react image" />
-                      <img src={reactImage} alt="react" />
-                      <img src={tailwindcss} alt="tailwind" />
-                      <img src={solidity} alt="solidity" />
-                    </div>
-                  }
-                  href="https://t-dapp.vercel.app/"
-                  links="Check it out"
-                />
-              </SwiperSlide>
+
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
@@ -141,30 +120,6 @@ const Body = () => {
                   links="Check it out"
                 />
               </SwiperSlide>
-              
-              
-              <SwiperSlide>
-                <Project
-                  lowerContainer="project"
-                  src={applicant}
-                  alt="Applicant tracking system image"
-                  sizingImage="mobileImage"
-                  nameOfProject="Applicant-Tracking-System"
-                  details="This is a hackathon project from getLinked.ai and I and my team worked on an applicant-tracking system where HR can get talents for the job."
-                  skill={
-                    <>
-                      <img src={nextJsImage} alt="nextjs" />
-                      <img src={tailwindcss} alt="" />
-                    </>
-                  }
-                  href="https://sequidor.netlify.app/"
-                  links="Check it out"
-                />
-              </SwiperSlide>
-
-             
-
-              
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
