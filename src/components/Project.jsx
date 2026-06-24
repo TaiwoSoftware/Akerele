@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
     sizingImage, // Added prop validation
     nameOfProject,
     lowerContainer,
-    skill,
+    skill
   }) => {
     return (
       <div className="containerProject">
