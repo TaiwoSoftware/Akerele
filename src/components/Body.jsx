@@ -8,6 +8,7 @@ import Skill from "./Skill";
 import solidity from '../images/main-solidity.svg';
 import noteChain from '../images/NoteChain.png';
 import byteeats from '../images/byteeat.png'
+import billsplit from '../images/billsplit.png';
 import Project from "./Project";
 import quizz from '../images/quizz.jpg';
 import reactImage from "../images/icons8-react-50.png";
@@ -56,6 +57,28 @@ const Body = () => {
               modules={[Navigation, Pagination]}
               pagination={{ clickable: true }}
             >
+              <SwiperSlide>
+                <Project
+                  lowerContainer="project"
+                  src={billsplit}
+                  alt="A Bill Splitting App"
+                  sizingImage="mobileImage"
+                  nameOfProject="BillSplit"
+                  details="This is a simple bill splitting app that allows users to easily split bills among friends and family."
+                  skill={
+                    <>
+                      <img src={reactImage} className="spinner" alt="react" />
+                      <img
+                        src={typescriptImage}
+                        className="typescript"
+                        alt="typescript"
+                      />
+                      <img src={tailwindcss} alt="tailwind" />
+                    </>
+                  }
+                  href="https://billsplitnomba.vercel.app/"
+                />
+              </SwiperSlide>
               <SwiperSlide>
                 <Project
                   lowerContainer="project"
