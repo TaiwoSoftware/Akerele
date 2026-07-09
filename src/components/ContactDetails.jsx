@@ -19,7 +19,7 @@ function ContactDetails() {
       <p>Reach out to me on these platforms</p>
 
       <div className="footerSocial">
-        <Link to="https://twitter.com/davcodes24">
+        <Link to="https://twitter.com/engineerAkerele">
           <img src={twitter} alt="Twitter" />
         </Link>
         <Link to="https://www.instagram.com/davcodin/">
